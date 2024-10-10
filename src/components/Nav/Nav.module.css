@@ -63,6 +63,7 @@ padding: 0 12%;
     .nav{
         position: relative;
         border-bottom: 0.2px solid #fdfde1;
+        
     }
 
     .nav ul{
@@ -74,6 +75,7 @@ padding: 0 12%;
         width: 100%;
         overflow: hidden;
         transition: .6s;
+        z-index: 1;
     }
 
     .nav ul li{
@@ -85,5 +87,11 @@ padding: 0 12%;
 
     .nav .activeNav{
       height: 600px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .nav{
+        padding: 0 2%;
     }
 }
