@@ -1,0 +1,45 @@
+.testimonialWrapper{
+    flex-direction: column;
+}
+
+.swiper{
+    width: 100%;
+    margin-top: 60px;
+}
+
+.swiperCard{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    border: 2px solid #1e1e1e;
+    border-radius: 20px;
+    box-shadow: 4px 4px 1px #1e1e1e;
+}
+
+.swiperCard i{
+    font-size: 22px;
+}
+
+.swiperCard p{
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.swiperCard img{
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile h3 span{
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 2px;
+}

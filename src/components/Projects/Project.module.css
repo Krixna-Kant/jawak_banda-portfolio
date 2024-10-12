@@ -1,0 +1,86 @@
+.projectWrapper{
+    background-color: #1e1e1e;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.projectWrapper h1{
+    color: #fdfde1;
+    line-height: 50px;
+}
+
+.projectWrapper h1 img{
+    height: 45px;
+}
+.projectContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    z-index: 1;
+}
+
+.projectContainer::-webkit-scrollbar{
+    background-color: #1e1e1e;
+}
+
+.projectContainer::-webkit-scrollbar-thumb{
+    background-color: #ffff;
+    padding: 50px;
+}
+
+.projectContainer .projectCard{
+    height: 320px;
+    min-width: 550px;
+    position: relative;
+   overflow: hidden;
+}
+
+.projectContainer .projectCard::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.projectContainer .projectCard h3, .projectContainer .projectCard button{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    z-index: 8;
+}
+
+.projectContainer .projectCard h3{
+    bottom: 80px;
+    font-size: 36px;
+    color: #fdfde1;
+    font-family: 'syne';
+}
+
+.projectContainer .projectCard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    filter: grayscale(100%);
+}
+
+.projectContainer .projectCard:hover img{
+    transform: scale(1.1);
+    filter: grayscale(0%);
+}
+
+@media screen and (max-width:768) {
+    
+    .projectWrapper h1{
+        line-height: 30px;
+    }
+    .projectWrapper h1 img{
+        height: 25px;
+    }
+}
