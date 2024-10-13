@@ -3,7 +3,7 @@ import teamCSS from './../Teams/Team.module.css'
 
 import star from './../../assets/star.png'
 
-import Team1 from './../../assets/team1.png'
+import Team1 from './../../assets/team1.jpg'
 import Team2 from './../../assets/team2.png'
 import Team3 from './../../assets/team3.png'
 
@@ -41,12 +41,12 @@ function Team() {
                 <p>Creative Team</p>
             </div>
             <div className={teamCSS.card}>
-                <img src={Team3} alt=''/>
+                <img src={Team1} alt=''/>
                 <h3>Krishna</h3>
                 <p>Creative Team</p>
             </div>
             <div className={teamCSS.card}>
-                <img src={Team2} alt=''/>
+                <img src={Team1} alt=''/>
                 <h3>Krishna</h3>
                 <p>Creative Team</p>
             </div>
