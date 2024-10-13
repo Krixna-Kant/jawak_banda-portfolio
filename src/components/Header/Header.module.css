@@ -30,17 +30,13 @@
 
 .arrow {
     position: absolute;
-    bottom: 120px;
+    bottom: 47px;
     left: 420px;
     height: 70px;
     width: 180px;
     animation: arrowBounce 2s ease-in-out infinite;
 }
 
-.content button{
-    width: 280px;
-    min-height: 35px;
-}
 
 @keyframes arrowBounce {
     0%, 100% {
@@ -49,6 +45,11 @@
     50% {
         transform: translateY(10px);
     }
+}
+
+.content button{
+    width: 280px;
+    min-height: 35px;
 }
 
 .content h1 {

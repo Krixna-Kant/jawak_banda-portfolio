@@ -1,0 +1,112 @@
+.teamWrapper{
+    flex-direction: column;
+    gap: 30px;
+}
+
+.anim_text{
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    color: #fff;
+    margin-bottom: 80px;
+}
+
+.anim_text div{
+    display: flex;
+    gap: 20px;
+}
+
+.anim_text div:nth-child(1){
+    animation:anim2 20s infinite linear;
+}
+.anim_text div:nth-child(2){
+    animation:anim2 20s infinite linear;
+}
+
+.anim_text div h3{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-width: 200px;
+}
+
+.anim_text div h3 img{
+    width: 30px;
+}
+
+
+@keyframes anim2{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}
+
+.Teams_Cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    padding: 120px 10%;
+    z-index: 1;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: #fff;
+    position: relative;
+}
+
+.card::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    height: 80%;
+    width: 90%;
+    border: 2px solid #1e1e1e;
+    z-index: -1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #bff747;
+    transition: .6s;
+}
+
+.card:hover::after{
+    background-color: #1e1e1e;
+}
+
+.card img{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #1e1e1e;
+}
+
+.card h3,p{
+    font-size: 24px;
+    font-family: 'Syne';
+}
+
+@media screen and (max-width: 1400px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .Teams_Cards{
+        padding: 80px 10%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .Teams_Cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
