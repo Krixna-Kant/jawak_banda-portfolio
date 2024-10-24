@@ -11,17 +11,16 @@ function Nav() {
   return (
     <nav className={navCss.nav}>
       <div className={navCss.logo}>
-        <a href='#'>Jawak</a>
+        <a href='/'>Jawak</a>
       </div>
       <ul ref={menu} className={navCss.menu}>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>Services</a></li>
-        <li><a href='#'>Projects</a></li>
-        <li><a href='#'>Testimonials</a></li> {/* Fixed typo from "Testimonals" */}
-        <li><a href='#'>Teams</a></li>
-        <li><a href='#'>Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#teams">Teams</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <button onClick={handler}>Contact Us</button>
       <i className='ri-menu-2-line' id={navCss.bars} onClick={handler}></i>
     </nav>
   );

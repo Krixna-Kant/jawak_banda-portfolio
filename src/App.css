@@ -26,6 +26,11 @@ button{
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 button:hover{
     box-shadow: 0 0 1px #fdfde1;
 }
