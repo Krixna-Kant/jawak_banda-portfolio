@@ -51,12 +51,16 @@ function Contact() {
         <p>Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet.</p>
         <div className={contactCSS.socialWrapper}>
           <div className={contactCSS.detail}>
-            <p>Get Us a call <span>+63 126597878</span></p>
-            <p>Send Us an Email <span>example@gmail.com</span></p>
+            <p>Contact Us on WhatsApp <span>+91 9267987570</span></p>
+            <p>Send Us an Email <span>jawakbanda@gmail.com</span></p>
           </div>
           <div className={contactCSS.social}>
+            <a href='https://www.instagram.com/jawak_banda/' target='_blank' rel='noopener noreferrer'>
             <i className='ri-instagram-line'></i>
-            <i className='ri-facebook-line'></i>
+            </a>
+            <a href='https://wa.me/9267987570' target='_blank' rel='noopener noreferrer'>
+            <i className='ri-whatsapp-line'></i>
+            </a>
             <i className='ri-twitter-x-line'></i>
             <i className='ri-youtube-line'></i>
             <i className='ri-github-line'></i>

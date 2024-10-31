@@ -7,6 +7,7 @@ import user2 from './../../assets/user2.png';
 import user3 from './../../assets/user3.png';
 import headerIMG from './../../assets/header-img.png';
 import arrow from './../../assets/arrow.png';
+import Digitalstudio from './../../assets/Digitalstudio.png';
 
 function Header() {
   const handleButtonClick = () => {
@@ -42,7 +43,7 @@ function Header() {
       </div>
       
       <div className={headerCss.headerIMG}>
-        <img src={headerIMG} alt="Header Background" />
+        <img src={Digitalstudio} alt="Header Background" />
       </div>
     </div>
   );
