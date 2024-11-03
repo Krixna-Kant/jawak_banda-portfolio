@@ -15,7 +15,7 @@ function Testimonial() {
   return (
     <div className={`${testimonialCSS.testimonialWrapper} section`}>
         <h1 className='section_title'>
-            Clients an Always Satified <br/> With us
+            Clients are Always Satisfied <br/> With us
             <img src={star} alt="" />
         </h1>
 
@@ -50,10 +50,10 @@ function Testimonial() {
                         <i className='ri-star-fill'></i>
                         <i className='ri-star-fill'></i>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda nemo autem porro a eius pariatur!</p>
+                    <p>Excellent content! Engaging posts and posters that boosted our social media presence significantly.</p>
                     <div className={testimonialCSS.profile}>
                         <img src={user1} alt=''/>
-                        <h3>Krishna <span>Dekho.com</span></h3>
+                        <h3>Mr. Bhati <span>Bhati & Sons</span></h3>
                     </div>
                 </div>
             </SwiperSlide>
@@ -66,10 +66,10 @@ function Testimonial() {
                         <i className='ri-star-fill'></i>
                         <i className='ri-star-fill'></i>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda nemo autem porro a eius pariatur!</p>
+                    <p>Impressive animation! High-quality, user-engaging visuals that made our promotions truly stand out and captivate audiences.</p>
                     <div className={testimonialCSS.profile}>
                         <img src={user2} alt=''/>
-                        <h3>Jawak <span>Ruko.com</span></h3>
+                        <h3>Adorned Sports <span>adornedsports.com</span></h3>
                     </div>
                 </div>
             </SwiperSlide>
@@ -82,10 +82,10 @@ function Testimonial() {
                         <i className='ri-star-fill'></i>
                         <i className='ri-star-fill'></i>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda nemo autem porro a eius pariatur!</p>
+                    <p>Fantastic web redesign—modern, user-friendly, and effective! We’re seeing better engagement across the site.</p>
                     <div className={testimonialCSS.profile}>
                         <img src={user3} alt=''/>
-                        <h3>Ashish <span>Chalo.com</span></h3>
+                        <h3>Mr. Alex Martin <span>Fresh Digital Solutions</span></h3>
                     </div>
                 </div>
             </SwiperSlide>

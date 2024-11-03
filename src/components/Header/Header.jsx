@@ -25,7 +25,7 @@ function Header() {
         </h1>
         
         <p>
-          Jawak, a full-service digital agency specializing in Web Design & Development, 2D & 3D Animation, Logo Design, and Video Editing.
+        Jawak: Where Creativity Meets Technology—Web Design, Stunning Animation, Graphic Design, Video Editing, Social Media Management, etc.
         </p>
         
         <div className={headerCss.profiles}>

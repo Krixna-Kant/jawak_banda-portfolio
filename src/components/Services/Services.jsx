@@ -12,29 +12,29 @@ function Services() {
         <img src={star} alt='' />
       </h1>
       <div className={serviceCSS.servicCards}>
-        <div className={serviceCSS.servicCard}>
-          <i className='ri-shape-line'></i>
-          <h2>Graphic Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-          <img src={imgArrow} alt='' />
-        </div>
-        <div className={serviceCSS.servicCard}>
-          <i className='ri-exchange-2-line'></i>
-          <h2>UI/UX Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-          <img src={imgArrow} alt='' />
+      <div className={serviceCSS.servicCard}>
+          <i className='ri-meteor-line'></i>
+          <h2>2D & 3D Video Animation</h2>
+          <p>Engaging 2D & 3D Animations to Elevate Your Brand</p>
+          {/* <img src={imgArrow} alt='' /> */}
         </div>
         <div className={serviceCSS.servicCard}>
           <i className='ri-terminal-box-line'></i>
-          <h2>Web Design</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-          <img src={imgArrow} alt='' />
+          <h2>Web Solutions & Development</h2>
+          <p>Empowering Brands with Custom Web Development Solutions</p>
+          {/* <img src={imgArrow} alt='' /> */}
         </div>
         <div className={serviceCSS.servicCard}>
-          <i className='ri-meteor-line'></i>
-          <h2>Motion Graphics</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-          <img src={imgArrow} alt='' />
+        <i className='ri-exchange-2-line'></i>
+          <h2>Social Presence Development</h2>
+          <p>Enhancing Brand Visibility by Managing Social Media Accounts</p>
+          {/* <img src={imgArrow} alt='' /> */}
+        </div>
+        <div className={serviceCSS.servicCard}>
+          <i className='ri-shape-line'></i>
+          <h2>Digital Branding Solutions</h2>
+          <p>Crafting unique brand visuals for impactful digital presence.</p>
+          {/* <img src={imgArrow} alt='' /> */}
         </div>
       </div>
 
@@ -44,7 +44,7 @@ function Services() {
           <br /> Business Stand out
         </h3>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ex.</p>
+        <p>Helping Your Business Shine in a Competitive Market</p>
       </div>
 
       <div className={serviceCSS.service_bottom_container}>
@@ -55,16 +55,16 @@ function Services() {
         <div className={serviceCSS.service_contentWrapper}> 
           {/* Ensure this matches your CSS module */}
           <div className={serviceCSS.content}>
-            <h2>15+</h2>
+            <h2>2+</h2>
             <p>Year of Experience</p>
           </div>
           <div className={serviceCSS.content}>
-            <h2>120</h2>
+            <h2>20+</h2>
             <p>Success Projects</p>
           </div>
           <div className={serviceCSS.content}>
-            <h2>100%</h2>
-            <p>Client Happiness Rate</p>
+            <h2>99%</h2>
+            <p>Client Satisfaction Rate</p>
           </div>
         </div>
       </div>

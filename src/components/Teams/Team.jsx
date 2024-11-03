@@ -42,13 +42,13 @@ function Team() {
             </div>
             <div className={teamCSS.card}>
                 <img src={Team1} alt=''/>
-                <h3>Krishna</h3>
-                <p>Creative Team</p>
+                <h3>Ashish</h3>
+                <p>Web technologies Team</p>
             </div>
             <div className={teamCSS.card}>
                 <img src={Team1} alt=''/>
-                <h3>Krishna</h3>
-                <p>Creative Team</p>
+                <h3>Samar</h3>
+                <p>Social Media Team</p>
             </div>
         </div>
     </div>
