@@ -4,8 +4,10 @@ import teamCSS from './../Teams/Team.module.css'
 import star from './../../assets/star.png'
 
 import Team1 from './../../assets/team1.jpg'
-import Team2 from './../../assets/team2.png'
-import Team3 from './../../assets/team3.png'
+// import Team2 from './../../assets/team2.png'
+// import Team3 from './../../assets/team3.png'
+import Team2 from './../../assets/team2nd.jpeg'
+import Team3 from './../../assets/teamthree.jpg'
 
 function Team() {
   return (
@@ -41,12 +43,12 @@ function Team() {
                 <p>Creative Team</p>
             </div>
             <div className={teamCSS.card}>
-                <img src={Team1} alt=''/>
+                <img src={Team2} alt=''/>
                 <h3>Ashish</h3>
                 <p>Web technologies Team</p>
             </div>
             <div className={teamCSS.card}>
-                <img src={Team1} alt=''/>
+                <img src={Team3} alt=''/>
                 <h3>Samar</h3>
                 <p>Social Media Team</p>
             </div>

@@ -38,7 +38,7 @@ function Header() {
             Working with Jawak transformed our brand’s digital presence.
           </p>
         </div>
-        <img src={arrow} alt="Arrow" className={headerCss.arrow} />
+        {/* <img src={arrow} alt="Arrow" className={headerCss.arrow} /> */}
         <button onClick={handleButtonClick}>Create with Jawak</button>
       </div>
       

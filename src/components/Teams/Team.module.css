@@ -58,9 +58,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; /* Centers content vertically */
     width: 400px;
     background-color: #fff;
     position: relative;
+    box-sizing: border-box; /* Ensures padding doesn’t affect width */
 }
 
 .card::after{
@@ -83,9 +85,15 @@
 }
 
 .card img{
-    width: 100%;
+    width: 100%; /* Ensures the image spans the width of the card */
+    height: 300px; /* Set a uniform height */
+    object-fit: cover; /* Ensures the image scales without distortion, cropping when necessary */
     margin-bottom: 20px;
     border: 2px solid #1e1e1e;
+    display: block;
+    /* width: 100%;
+    margin-bottom: 20px;
+    border: 2px solid #1e1e1e; */
 }
 
 .card h3,p{

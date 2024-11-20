@@ -1,14 +1,95 @@
 .contactWrapper{
     background-color: #000;
     color: #fdfde1;
+    display: flex;
+    flex-direction: column; /* Adjusted for new layout */
+    align-items: start;
+    justify-content: start;
+    padding: 50px 12%;
+    text-align: start;
+    height: 100vh;
 }
 
 .contactWrapper h1{
     text-align: start;
     line-height: 70px;
+    margin-bottom: 5px;
 }
 
-.Content{
+.contactWrapper h1 img {
+    width: 40px;
+    height: 40px;
+}
+
+/* .contactWrapper p {
+    font-size: 16px;
+    margin: 18px auto;
+    width: 80%; /* Adjusted for better readability */
+    /* text-align: left; */
+/* } */ 
+
+.contactWrapper .tagline {
+    font-size: 15px; /* Slightly larger text for emphasis */
+    font-weight: light; /* Make the tagline stand out */
+    color: #bff747; /* Matches the theme with a vibrant color */
+    text-align: center; /* Center-align the text */
+    margin: 5px auto 50px; /* Add spacing around the tagline */
+    font-style: italic; /* Add a touch of style */
+    line-height: 1.4; /* Adjust line spacing for better readability */
+}
+
+.contactWrapper .followup {
+    font-size: 16px;
+    /* margin: 18px auto;
+    width: 80%; Adjusted for better readability */
+    text-align: start;
+    margin-left: 0;
+    width: auto;
+}
+
+.contactWrapper .sampleFormat {
+    list-style: none; /* Removed bullets */
+    padding: 0;
+    margin: 20px 0;
+    color: #bff747;
+    font-size: 15px;
+    line-height: 1.6; /* Improved readability */
+}
+
+.contactWrapper .sampleFormat li {
+    margin: 8px 0; /* Space between each point */
+}
+
+.contactWrapper .sampleFormat strong {
+    color: #fff; /* Highlighted key points */
+}
+
+.contactWrapper .socialWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased gap for better spacing */
+}
+.detail p {
+    font-size: 20px; /* Smaller font size */
+    margin: 5px 0;   /* Reduced spacing between lines */
+    color: #bff747;
+  }
+  
+  .detail p span {
+    display: block;
+    font-size: 20px; /* Matching the smaller font size */
+    color: #fdfde1;
+    font-weight: bold; /* Highlight the clickable items */
+    cursor: pointer;   /* Indicate clickable elements */
+    text-decoration: none; /* Add underlines for emphasis */
+  }
+
+  .detail p span:hover {
+    text-decoration: underline; /* Underline only on hover */
+    color: #bff100;
+  }
+
+/* .Content{
     width: 50%;
     position: relative;
 }
@@ -32,7 +113,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} */
 
 .detail{
     display: flex;
@@ -47,6 +128,7 @@
 .detail p span{
     display: block;
     color: #fdfde1;
+    font-weight: bold; /* Highlighted contact details */
 }
 
 .social{
@@ -55,7 +137,7 @@
 }
 
 .social i{
-    font-size: 20px;
+    font-size: 24px;
     cursor: pointer;
     transition: .6s;
 }
@@ -64,20 +146,20 @@
     color: #bff747;
 }
 
-.form{
+/* .form{
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 35px;
-}
+} */
 
-.inputWrapper{
+/* .inputWrapper{
     height: 46px;
     width: 100%;
     margin-bottom: 15px;
-}
+} */
 
-.inputWrapper input{
+/* .inputWrapper input{
     background-color: transparent;
     border: 0.2px solid #bff74736;
     outline: none;
@@ -118,14 +200,43 @@ textarea{
     .form{
         margin-top: 100px;
     }
+} */
+
+@media screen and (max-width: 1100px){
+    .contactWrapper {
+        align-items: center; /* Centered content for smaller screens */
+    }
+
+    .contactWrapper p {
+        text-align: center;
+        width: 90%; /* Adjusted for smaller screen sizes */
+    }
+
+    .contactWrapper .socialWrapper {
+        align-items: center;
+    }
 }
 
-@media screen and (max-width: 768px){
-    .contactWrapper h1{
-       line-height: 50px;
+@media screen and (max-width: 768px) {
+    .contactWrapper h1 {
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .contactWrapper p {
+        text-align: center;
     }
 
     .section {
-        padding: 25px 12%;
+        padding: 25px 10%;
+    }
+
+    .social {
+        justify-content: center; /* Center social icons */
     }
 }
+
+    /* .section {
+        padding: 25px 12%;
+    }
+} */
